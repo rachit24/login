@@ -1,0 +1,40 @@
+.log{
+    border: 5px solid black;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+label,input,select,textarea{
+    font-size: 18px;
+    margin: 10px;
+}
+
+.sub,h1{
+    text-align: center;
+}
+
+form{
+    background: linear-gradient(to right, rgb(141, 231, 141),rgb(136, 136, 224));
+}
+
+body{
+    background: linear-gradient(to right,rgb(136, 136, 224), rgb(141, 231, 141));
+}
+
+
+@media only screen and (max-width: 450px){
+    .log{
+        width: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    label,input,select,textarea{
+        font-size: 15px;
+        margin: 5px;
+    }
+}

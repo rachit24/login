@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login Form</h1>
+    <div class="log">
+        <form id="contact">
+            <label for="usernname">Name</label>
+            <input type="text" id="username" name="username"><br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password"><br>
+
+            <label for="gender">Gender</label><br>
+            <input type="radio" id="male" name="gender" value="m">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="f">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"><br>
+
+            <label for="phone">Phone no: </label>
+            </select>
+            <input type="tel" id="phone" name="phone"><br>
+
+            <label for="message">Message</label><br>
+            <textarea name="" id="message" cols="30" rows="2" placeholder="Enter text"></textarea>
+
+            <center><input type="submit" value="Submit"></center>
+        </form>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>
