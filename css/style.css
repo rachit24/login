@@ -139,42 +139,52 @@ input[type=submit]:hover{
 }
 
 
-/* .log{
-    border: 5px solid black;
-    width: 500px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
 
-label,input,select,textarea{
-    font-size: 18px;
-    margin: 10px;
-}
-
-form{
-    background: linear-gradient(to right, rgb(141, 231, 141),rgb(136, 136, 224));
-}
-
-body{
-    background: linear-gradient(to right,rgb(136, 136, 224), rgb(141, 231, 141));
-}
-
-h1{
-    text-align: center;
-}
-
-@media only screen and (max-width: 450px){
-    .log{
-        width: auto;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-    }
+@media(max-width:650px){
+    .container .card{
+        position: relative;
+        width: 300px;
+        height: 500px;
+        margin: 20px;
+    }   
     label,input,select,textarea{
         font-size: 15px;
-        margin: 5px;
+        margin: 6px;
     }
-} */
+    .container .card .content h2{
+        font-size: 4em;
+    }
+}
+
+@media(max-width:340px){
+    .container .card{
+        position: relative;
+        width: 250px;
+        height: 450px;
+        margin: 14px;
+    }   
+    label,input,select,textarea{
+        font-size: 13px;
+        margin: 4px;
+    }
+    .container .card .content h2{
+        font-size: 2em;
+    }
+}
+
+@media(max-width:279px){
+    .container .card{
+        position: relative;
+        width: 180px;
+        height: 450px;
+        margin: 9px;
+    }   
+    label,input,select,textarea{
+        font-size: 10px;
+        margin: 4px;
+        display: block;
+    }
+    .container .card .content h2{
+        font-size: 2em;
+    }
+}
